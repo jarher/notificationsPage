@@ -1,0 +1,57 @@
+[
+  {
+    "avatarImg": "",
+    "username": "Mark Webber",
+    "notificationMessage": "reacted to your recent post",
+    "postReacted": "My first tournament today!",
+    "postDated": "1m ago",
+    "isNewNotification": true
+  },
+  {
+    "avatarImg": "",
+    "username": "Angela Gray ",
+    "notificationMessage": "followed you",
+    "postDated": " 5m ago",
+    "isNewNotification": true
+  },
+  {
+    "avatarImg": "",
+    "username": "Jacob Thompson",
+    "notificationMessage": "has joined your group",
+    "groupJoined": "Chess Club",
+    "postDated": "1 day ago",
+    "isNewNotification": true
+  },
+  {
+    "avatarImg": "",
+    "username": "Rizky Hasanuddin",
+    "notificationMessage": "sent you a private message",
+    "postDated": "5 days ago",
+    "isNewNotification": false,
+    "privateMessage": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+  },
+  {
+    "avatarImg": "",
+    "username": "Kimberly Smith",
+    "notificationMessage": "commented on your picture",
+    "postDated": " 1 week ago",
+    "isNewNotification": false,
+    "imgCommented": ""
+  },
+  {
+    "avatarImg": "",
+    "username": "Nathan Peterson",
+    "notificationMessage": " reacted to your recent post",
+    "postReacted": "5 end-game strategies to increase your win rate",
+    "postDated": "2 weeks ago",
+    "isNewNotification": false
+  },
+  {
+    "avatarImg": "",
+    "username": "Anna Kim",
+    "notificationMessage": "left the group",
+    "groupleft": "Chess Club",
+    "postDated": "2 weeks ago",
+    "isNewNotification": false
+  }
+]
