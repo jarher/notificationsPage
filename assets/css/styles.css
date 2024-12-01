@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./reset.css";
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
+:root {
+  --Red: hsl(1, 90%, 64%);
+  --Blue: hsl(219, 85%, 26%);
+  --White: hsl(0, 0%, 100%);
+  --Very-light-grayish-blue: hsl(210, 60%, 98%);
+  --Light-grayish-blue-1: hsl(211, 68%, 94%);
+  --Light-grayish-blue-2: hsl(205, 33%, 90%);
+  --Grayish-blue: hsl(219, 14%, 63%);
+  --Dark-grayish-blue: hsl(219, 12%, 42%);
+  --Very-dark-blue: hsl(224, 21%, 14%);
+}
+
+html {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+}
+
+.background-white {
+  background-color: var(--White);
+}
+
+.background-very-light-grayish-blue {
+  background-color: var(--Very-light-grayish-blue);
+}
+
+.background-light-grayish-blue-1 {
+  background-color: var(--Light-grayish-blue-1);
+}
+
+.background-light-grayish-blue-2 {
+  background-color: var(--Light-grayish-blue-2);
+}
+
+.background-blue {
+  background-color: var(--Blue);
+}
+
+.background-red {
+  background-color: var(--Red);
+}
+
+.border-color-light-grayish-blue-2 {
+  border: 1px solid var(--Light-grayish-blue-2);
+}
+
+.fontColor-blue {
+  color: var(--Blue);
+}
+
+.fontColor-very-dark-blue {
+  color: var(--Very-dark-blue);
+}
+
+.fontColor-dark-grayish-blue {
+  color: var(--Dark-grayish-blue);
+}
+
+.fontColor-grayish-blue {
+  color: var(--Grayish-blue);
+}
+.font-size-0\.9 {
+  font-size: 0.9375rem;
+}
+.hovered-text:hover {
+  color: var(--Blue) !important;
+}
+
+.box-text-hovered:hover {
+  background-color: var(--Light-grayish-blue-2);
+  color: var(--Dark-grayish-blue);
+}
+
+.img-hovered:hover {
+  outline: 2px solid var(--Light-grayish-blue-1);
+}
+@media (min-width: 768px) {
+  .mt-3\.75 {
+    margin-top: 3.75rem;
+  }
+  .mb-5\.625 {
+    margin-bottom: 5.625rem;
+  }
+  .w-45\.625 {
+    width: 45.625rem;
+  }
+  .font-size-1\.0625 {
+    font-size: 1.0625rem;
+  }
+}
