@@ -2,13 +2,13 @@ const template = (userData) => `
 <div class="flex rounded-lg p-4 gap-x-3.5 fontColor-grayish-blue ${
   userData.isNewNotification ? "background-very-light-grayish-blue" : ""
 }">
-    <img class="w-10 h-10 rounded-full" src="${
+    <img class="w-10 h-10 md:w-11 md:h-11 rounded-full" src="${
       userData.avatarImg
     }" alt="avatar of ${userData.username}">
 
     <div class="flex w-full">
         <div>
-          <span class="font-medium cursor-pointer fontColor-very-dark-blue mr-2 hovered-text transition-all">${
+          <span class="font-bold cursor-pointer fontColor-very-dark-blue mr-2 hovered-text transition-all">${
             userData.username
           }</span>${userData.notificationMessage}
           
